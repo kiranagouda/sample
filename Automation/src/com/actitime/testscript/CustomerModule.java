@@ -18,6 +18,7 @@ public class CustomerModule extends BaseClass{
 	
 	@Test
 	public void testCreateCustomer() throws InterruptedException, EncryptedDocumentException, IOException {
+		//welcome
 		Reporter.log("CreateCustomer",true);
 		FileLib f=new FileLib();
 		String custName = f.getExcelData("CreateCustomer",1, 3);
